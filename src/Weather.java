@@ -16,7 +16,7 @@ public class Weather {
         try {
 
             // creates a url String that takes in the city and state strings from the parameters to finish the url
-            String url = "http://api.openweathermap.org/data/2.5/weather?q=" + cityIn + "," + stateIn + "&appid=7083a5da88341240dd344c81d6623bcc";
+            String url = "http://api.openweathermap.org/data/2.5/weather?q=" + cityIn + "," + stateIn + "&appid=[API Key]";
             URL obj = new URL(url);
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
