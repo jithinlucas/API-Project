@@ -17,7 +17,7 @@ public class Movie {
         try
         {
             // creates a url String that takes in the movieTitle string from the parameter to finish the url
-            String url= "http://www.omdbapi.com/?t=" + movieTitle + "&apikey=4087fcee";
+            String url= "http://www.omdbapi.com/?t=" + movieTitle + "&apikey=[API Key]";
             URL obj = new URL(url);
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
